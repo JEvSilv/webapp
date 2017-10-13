@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>EfetuarLogin</servlet-name>
+  	<display-name>EfetuarLogin</display-name>
+  	<description></description>
+  	<servlet-class>servicos.EfetuarLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Principal</servlet-name>
+  	<display-name>Principal</display-name>
+  	<description></description>
+  	<servlet-class>servicos.Principal</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PaginaPrincipal</servlet-name>
+  	<display-name>PaginaPrincipal</display-name>
+  	<description></description>
+  	<servlet-class>servicos.PaginaPrincipal</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EfetuarLogin</servlet-name>
+  	<url-pattern>/efetuarlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Principal</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PaginaPrincipal</servlet-name>
+  	<url-pattern>/principal</url-pattern>
+  </servlet-mapping>
+</web-app>
